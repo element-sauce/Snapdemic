@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>277796514178-veg0dunvgjj2f90h079qs7h1pdm9fldr.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.277796514178-veg0dunvgjj2f90h079qs7h1pdm9fldr</string>
+	<key>API_KEY</key>
+	<string>AIzaSyD_24fG1AXjYPc-tocalPUlgeb8vKgYyKY</string>
+	<key>GCM_SENDER_ID</key>
+	<string>277796514178</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.billx.developer.Allergio</string>
+	<key>PROJECT_ID</key>
+	<string>allergio-22c39</string>
+	<key>STORAGE_BUCKET</key>
+	<string>allergio-22c39.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:277796514178:ios:1dd7c40d5b6996e5ac479b</string>
+	<key>DATABASE_URL</key>
+	<string>https://allergio-22c39.firebaseio.com</string>
+</dict>
+</plist>
