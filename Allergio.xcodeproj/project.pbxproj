@@ -11,6 +11,7 @@
 		48139B2824A7F69C008EFF04 /* SlideInTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48139B2724A7F69C008EFF04 /* SlideInTransition.swift */; };
 		48139B2A24A8203B008EFF04 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48139B2924A8203B008EFF04 /* ProfileViewController.swift */; };
 		48139B3024A85636008EFF04 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48139B2F24A85636008EFF04 /* CollectionViewCell.swift */; };
+		4850F50524A88F2B000DAC2C /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4850F50424A88F2B000DAC2C /* MapViewController.swift */; };
 		48AE8E3E24A2760C00D20CFF /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48AE8E3D24A2760C00D20CFF /* SignUpViewController.swift */; };
 		48AE8E4024A2761300D20CFF /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48AE8E3F24A2761300D20CFF /* LoginViewController.swift */; };
 		48AE8E4224A2762500D20CFF /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48AE8E4124A2762500D20CFF /* HomeViewController.swift */; };
@@ -33,6 +34,7 @@
 		48139B2724A7F69C008EFF04 /* SlideInTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlideInTransition.swift; sourceTree = "<group>"; };
 		48139B2924A8203B008EFF04 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		48139B2F24A85636008EFF04 /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		4850F50424A88F2B000DAC2C /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		48AE8E3D24A2760C00D20CFF /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		48AE8E3F24A2761300D20CFF /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		48AE8E4124A2762500D20CFF /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
@@ -41,7 +43,7 @@
 		48DF3DCD24A2CF9300EE74C0 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		D65E6017A11355BB55B15ECA /* Pods-Allergio.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Allergio.debug.xcconfig"; path = "Target Support Files/Pods-Allergio/Pods-Allergio.debug.xcconfig"; sourceTree = "<group>"; };
 		D87A6E0F24A32C75000018AF /* PredictionsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PredictionsCell.swift; sourceTree = "<group>"; };
-		D8AE5A4B2492DF6E00F5D96E /* Allergio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Allergio.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8AE5A4B2492DF6E00F5D96E /* Atlas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Atlas.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8AE5A4E2492DF6E00F5D96E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D8AE5A502492DF6E00F5D96E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		D8AE5A522492DF6E00F5D96E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -96,7 +98,7 @@
 		D8AE5A4C2492DF6E00F5D96E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D8AE5A4B2492DF6E00F5D96E /* Allergio.app */,
+				D8AE5A4B2492DF6E00F5D96E /* Atlas.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -109,6 +111,7 @@
 				48AE8E4324A2762B00D20CFF /* Login Pages */,
 				D8AE5A522492DF6E00F5D96E /* ViewController.swift */,
 				D8AE5A542492DF6E00F5D96E /* Main.storyboard */,
+				4850F50424A88F2B000DAC2C /* MapViewController.swift */,
 				48139B2924A8203B008EFF04 /* ProfileViewController.swift */,
 				48B80CF924A867AF006518FD /* DetailViewController.swift */,
 				48139B2F24A85636008EFF04 /* CollectionViewCell.swift */,
@@ -151,7 +154,7 @@
 			);
 			name = Allergio;
 			productName = Allergio;
-			productReference = D8AE5A4B2492DF6E00F5D96E /* Allergio.app */;
+			productReference = D8AE5A4B2492DF6E00F5D96E /* Atlas.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -261,6 +264,7 @@
 				D8AE5A512492DF6E00F5D96E /* SceneDelegate.swift in Sources */,
 				48AE8E4224A2762500D20CFF /* HomeViewController.swift in Sources */,
 				48139B2824A7F69C008EFF04 /* SlideInTransition.swift in Sources */,
+				4850F50524A88F2B000DAC2C /* MapViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -406,14 +410,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = HR7A7RU7G8;
+				DEVELOPMENT_TEAM = W9K3586753;
 				INFOPLIST_FILE = Allergio/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.billx.developer.Allergio;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.asharma.developer.Allergio;
+				PRODUCT_NAME = Atlas;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -425,14 +429,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = HR7A7RU7G8;
+				DEVELOPMENT_TEAM = W9K3586753;
 				INFOPLIST_FILE = Allergio/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.billx.developer.Allergio;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.asharma.developer.Allergio;
+				PRODUCT_NAME = Atlas;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

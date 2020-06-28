@@ -45,4 +45,16 @@ class ProfileViewController: UIViewController, UICollectionViewDelegate, UIColle
         return cell
     }
 
+    @IBAction func backBtnTapped(_ sender: UIButton) {
+        let homeViewController = storyboard?.instantiateViewController(identifier: "homeVC") as? HomeViewController
+        view.window?.rootViewController = homeViewController
+        view.window?.makeKeyAndVisible()
+    }
+    
+    @IBAction func infoBtnTapped(_ sender: Any) {
+        let detail = storyboard?.instantiateViewController(identifier: "detail") as? DetailViewController
+        view.window?.rootViewController = detail
+        view.window?.makeKeyAndVisible()
+    }
+    
 }
