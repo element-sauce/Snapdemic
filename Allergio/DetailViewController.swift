@@ -16,9 +16,16 @@ class DetailViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
-
+    @IBAction func backBtnTapped(_ sender: Any) {
+        let profile = storyboard?.instantiateViewController(identifier: "profile") as? ProfileViewController
+        view.window?.rootViewController = profile
+        view.window?.makeKeyAndVisible()
+    }
+    
     @IBAction func clickMapButton(_ sender: UIButton) {
-        // Handle logic for the MAPS
-        print("Map Button Clicked")
+        // Open Maps
+        let map = storyboard?.instantiateViewController(identifier: "map") as? MapViewController
+        view.window?.rootViewController = map
+        view.window?.makeKeyAndVisible()
     }
 }
