@@ -10,6 +10,7 @@ import UIKit
 
 class DetailViewController: UIViewController {
 
+    @IBOutlet weak var donationLbl: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -27,5 +28,9 @@ class DetailViewController: UIViewController {
         let map = storyboard?.instantiateViewController(identifier: "map") as? MapViewController
         view.window?.rootViewController = map
         view.window?.makeKeyAndVisible()
+    }
+    
+    @IBAction func stepper(_ sender: UIStepper) {
+        donationLbl.text = "$" + String(sender.value) + "0";
     }
 }
